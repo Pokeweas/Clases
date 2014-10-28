@@ -10,8 +10,8 @@ class Entrenador
         virtual ~Entrenador();
     protected:
     private:
-    Pokemon Equipo[5];
-    char Nombre[30];
+    Pokemon Equipo[5];//Arreglo tipo Pokemon que determina el equipo pokemon del entrenador (Generado aleatoriamente)
+    char Nombre[30];//Nombre entrenador 
 
 };
 
