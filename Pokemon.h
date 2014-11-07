@@ -4,9 +4,9 @@
 class Ataques
 {
     private:
-    char Nombre[30]//Nombre Ataque
-    char TipoP[30];//Tipo Pokemon
-    char TipoA[30];//Tipo Ataque
+    char Nombre[30];
+    char TipoP[30];
+    char TipoA[30];
     int PO;
 }
 
@@ -18,9 +18,8 @@ class Pokemon
     protected:
     private:
     int Numero;
-    char Nombre[30];//Nombre Pokemon
-    char Tipo[30];//Tipo Pokemon
-    //Estadisticas del Pokemon
+    char Nombre[30];
+    char Tipo[30];
     int PS;
     int ATK;
     int DEF;
